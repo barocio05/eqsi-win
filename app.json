@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Riego Mesh",
-    "slug": "riego-mesh",
+    "slug": "eqsi-win",
     "version": "1.0.0",
     "sdkVersion": "49.0.0",
     "platforms": ["ios", "android"],
@@ -34,4 +34,3 @@
     }
   }
 }
-
