@@ -7,7 +7,10 @@
     // … otras configuraciones …
     "android": {
       "package": "com.tuempresa.riegomesh"
-    },
+        {
+    "ios": {
+    "bundleIdentifier": "com.tuempresa.riegomesh"
+  },
     "extra": {
       "eas": {
         "projectId": "eaf53d7a-d949-4188-841d-b3fcaeab4c99"
