@@ -5,14 +5,13 @@
     "version": "1.0.0",
     "sdkVersion": "49.0.0",
     "platforms": ["ios","android"],
-    "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "updates": { "fallbackToCacheTimeout": 0 },
-    "assetBundlePatterns": ["**/*"],
-    "ios": { "supportsTablet": true },
-    "android": {
-      "package": "com.tuempresa.riegomesh",
-      "permissions": ["BLUETOOTH","BLUETOOTH_SCAN","BLUETOOTH_CONNECT","BLUETOOTH_ADVERTISE","ACCESS_FINE_LOCATION"]
+    // … otras configuraciones …
+    "extra": {
+      "eas": {
+        "projectId": "123e4567-e89b-12d3-a456-426614174000"
+      }
     }
   }
 }
+
