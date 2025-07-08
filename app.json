@@ -1,12 +1,13 @@
 {
-  "expo": {
+"expo": {
     "name": "Riego Mesh",
     "slug": "riego-mesh",
     "version": "1.0.0",
     "sdkVersion": "49.0.0",
-    "platforms": ["ios","android"],
-    "icon": "./assets/icon.png",
     // … otras configuraciones …
+    "android": {
+      "package": "com.tuempresa.riegomesh"
+    },
     "extra": {
       "eas": {
         "projectId": "eaf53d7a-d949-4188-841d-b3fcaeab4c99"
